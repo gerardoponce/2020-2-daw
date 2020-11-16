@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Registro</servlet-name>
+  	<display-name>Registro</display-name>
+  	<description></description>
+  	<servlet-class>controlador.Registro</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Busqueda</servlet-name>
+  	<display-name>Busqueda</display-name>
+  	<description></description>
+  	<servlet-class>controlador.Busqueda</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BusquedaProductos</servlet-name>
+  	<display-name>BusquedaProductos</display-name>
+  	<description></description>
+  	<servlet-class>controlador.BusquedaProductos</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Eliminacion</servlet-name>
+  	<display-name>Eliminacion</display-name>
+  	<description></description>
+  	<servlet-class>controlador.Eliminacion</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Actualizacion</servlet-name>
+  	<display-name>Actualizacion</display-name>
+  	<description></description>
+  	<servlet-class>controlador.Actualizacion</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Edicion</servlet-name>
+  	<display-name>Edicion</display-name>
+  	<description></description>
+  	<servlet-class>controlador.Edicion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Registro</servlet-name>
+  	<url-pattern>/Registro</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Busqueda</servlet-name>
+  	<url-pattern>/Busqueda</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BusquedaProductos</servlet-name>
+  	<url-pattern>/BusquedaProductos</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Eliminacion</servlet-name>
+  	<url-pattern>/Eliminacion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Actualizacion</servlet-name>
+  	<url-pattern>/Actualizacion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Edicion</servlet-name>
+  	<url-pattern>/Edicion</url-pattern>
+  </servlet-mapping>
+</web-app>
